@@ -1,0 +1,189 @@
+body{
+padding    : 0px;
+margin     : 0;
+font-family: Helvetica;
+background-color: brown;
+}
+
+header {
+    /* margin: 100px; */
+    display: block; 
+    /* margin: 200px; */
+    background-color: blueviolet;
+    /* margin: 100px; */
+    /* height  :80px; */
+    /* padding: 20px; */
+    background-color: darkgreen;
+
+}
+
+#header {
+background-color: blanchedalmond;
+/* display: flex; */
+/* justify-content: space-around; */
+/* position: fixed; */
+/* top     : 0;
+left    : 0;
+z-index : 500; */
+/* width   :100%;
+height  :80px; */
+background-image  : url('images/wood-bg.png'); 
+/* background-repeat: repeat-x; */
+}
+
+
+#header img{
+display: block;
+margin : auto;
+height : 70%;
+padding-top: 15px;
+}
+
+#tabs-top-container {
+    padding: px;
+}
+
+#tabs-top {
+/* position: fixed;
+top     : 80px;
+left    : 0;
+z-index : 500;
+*/
+margin: 0px;
+width   : 100%;
+height  : 40px;  
+background-color: darkgreen;
+/* padding: 5px; */
+}
+
+#tabs-top ul {
+    color: black;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    /* background-color: white; */
+    margin: 10px;
+    padding: 10px;
+}
+
+
+#tabs-top a{
+/* float   : left; */
+/* display : inline; */
+justify-content: space-between;
+/* width   : 33%; */
+height  :35px;
+font-weight : 700;
+color       : white;
+text-align  : center;
+text-decoration : none;
+padding-top     : 12px;  
+margin: 20px;
+} 
+
+
+#main {
+background-color: rgb(1, 10, 39);
+/* margin-top: 119px;  */
+/* height: 1000px;
+margin: 0px; */
+
+background-image: url('images/map-blur.png');
+width: 100%;
+/* padding: 10px; */
+} 
+
+#nav-bar {
+
+}
+#content {
+    /* background-color: rgb(0, 91, 170); */
+
+    /* background-color: orange; */
+    color: white;
+    /* padding: 2%; */
+    /* width: 100%;
+    height: 100%; */
+    /* margin: 0px; */
+    padding: 10px;
+    justify-content: center;
+}
+
+#tabs-bottom{
+position : fixed;
+bottom   : 0;
+left     : 0;
+z-index  : 500;
+width    : 100%;
+height   : 40px;
+background-color: forestgreen;
+padding: 10px;
+} 
+
+#tabs-bottom a{
+float : left;
+display : block;
+width : 50%;
+height : 35px;
+font-weight : 700;
+color       : white;
+text-align  : center;
+text-decoration : none;
+padding-top: none;
+} 
+
+
+
+#elephant-page-body {
+    /* margin-top: 120px ; */
+    /* background-color: rgb(163, 16, 16); */
+    /* width: 100%;
+    height: 100%;
+    background-image: url('./images/map-blur.png');
+    background-repeat: no-repeat;
+    object-fit: contain;
+    padding: 2%; */
+
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+} 
+
+#eph-image { 
+    width: 100%;
+    height: 100%-1;
+} 
+
+#elephant-image {
+    /* display: flex; */
+    /* margin: 150px; */
+    /* height: 100%; */
+    /* margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    background-color: rgba(195, 216, 230, 0.452);
+    padding: 20px;
+
+}
+
+#elephant-text {
+background-color: white;
+padding: 20px;
+/* width: 70%;
+justify-content: center;
+padding: 20px; */
+margin: 10px;
+}
+
+#info-box-full {
+ /* background-color: rgb(255, 0, 170); */
+ color: black;
+ /* margin: 200px; */
+ /* padding: 400px; */
+ align-items: center;
+ /* text-align: center; */
+/* background-image: url('./images/map-blur.png'); */
+background-repeat: no-repeat;
+margin: 10px;
+}
