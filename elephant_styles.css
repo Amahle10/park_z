@@ -40,7 +40,7 @@ padding-top: 15px;
 }
 
 #tabs-top-container {
-    padding: px;
+    padding: 0px;
 }
 
 #tabs-top {
@@ -84,18 +84,19 @@ margin: 20px;
 
 #main {
 background-color: rgb(1, 10, 39);
-/* margin-top: 119px;  */
-/* height: 1000px;
-margin: 0px; */
+
 
 background-image: url('images/map-blur.png');
 width: 100%;
-/* padding: 10px; */
+padding-bottom: 80px;
+
 } 
 
 #nav-bar {
 
 }
+
+
 #content {
     /* background-color: rgb(0, 91, 170); */
 
@@ -147,6 +148,7 @@ padding-top: none;
     /* justify-content: center;
     align-items: center;
     text-align: center; */
+    margin-bottom: 700px;
 } 
 
 #eph-image { 
@@ -158,10 +160,10 @@ padding-top: none;
     /* display: flex; */
     /* margin: 150px; */
     /* height: 100%; */
-    /* margin-top: 20px;
+    /* margin-top: 20px;*/
     align-items: center;
     justify-content: center;
-    text-align: center; */
+    /* text-align: center; */
     background-color: rgba(195, 216, 230, 0.452);
     padding: 20px;
 
@@ -186,4 +188,21 @@ margin: 10px;
 /* background-image: url('./images/map-blur.png'); */
 background-repeat: no-repeat;
 margin: 10px;
+}
+
+#elephant-image-box {
+    justify-content: center;
+    justify-items: center;
+    /* display: inline; */
+
+}
+
+
+#btn { background-color: red;
+    padding: 0px;
+    height: 25px
+}
+
+#menu :focus {
+    background-color: orange;
 }

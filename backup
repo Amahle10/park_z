@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body  >
+    <header>
+        <nav>
+
+        <div id="tabs-top-container">
+
+            <div id="header">
+                
+            <div id="header-image=container" style="padding: 10px;">
+                    
+                <img src="images/logo.png" style="height: 50px;" /> 
+
+            </div> 
+
+
+            </div> 
+            
+
+
+            <div id="tabs-top">
+                <ul>
+                    <li>
+                        <a href="./index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="./animals.html">ANIMALS</a>
+                    </li>
+                    <li>
+                        <a href="/index.html">MAP</a>
+                    </li>
+                    <li>
+                        <a href="./places.html">PLACES</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+    </header>
+
+
+    <section id="main-home">
+
+        <div style="text-align: center; padding: 10px;">
+            <h1>WELCOME TO THE ZOO</h1>
+
+            <h2>EXPLORE THE ANIMALS AND PLACES IN THE ZOO</h2>
+            <h3>AND ENJOY YOUR VISIT</h3>
+        </div>
+
+
+        <div id="main-home-image">
+            <img id="map-image" src="zooimages/closeup-head-cute-giraffe-looking-camera.jpg" alt="Map of Animals">
+        </div>
+
+        <div id="main-home-text">
+        
+        <p>
+        EXPLORE THE ANIMALS AND PLACES IN THE ZOO
+        AND ENJOY YOUR VISIT AND ENJOY YOUR VISIT
+        </p>
+        </div>
+
+    </section>
+
+    <section id='main-fo'>
+
+    <footer>
+        <div id="tabs-bottom">
+            <a href="#">WEATHER</a>
+            <a href="#">FEEDBACK</a>
+        </div>
+    </footer>     
+    </section>
+
+</body>
+</html>
