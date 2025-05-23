@@ -80,9 +80,9 @@ bottom   : 0;
 left     : 0;
 z-index  : 500;
 width    : 100%;
-height   : 40px;
+height   : 50px;
 background-color: forestgreen;
-padding: 10px;
+padding: 20px;
 margin: 0px;
 } 
 
@@ -109,24 +109,33 @@ padding-top: none;
     /* top     : 400px; */
     /* left    : 0; */
     /* z-index : 500; */
-    background-color: blanchedalmond;
-    padding: 20px;
+    /* padding-top: 400px; */
+
+    background-color: rgb(98, 0, 255);
+    /* padding: 200px; */
     /* margin-top: 100px; */
     width: 100% -1;
     height: 100%; 
-    padding-bottom: 100px; 
+    padding-bottom: 200px; 
 }
 
 #main-home-image {
-    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    background-color: blanchedalmond;
+    width: 700px;
+    height: 400px;
+    /* padding: 10px; */
     margin: 20px;
 }
 
 #main-home-image img {
-    display: block;
-    margin: auto;
+    /* display: block;
+    margin: auto; */
     width: 100%;
-    height: 200px;
+    height: 100%;
 }
 
 #main-footer {
@@ -143,7 +152,7 @@ padding-top: none;
 #main{
 margin-top: 119px;
 background: url('images/map-blur.png');
-background-repeat: repeat-y;
+background-repeat: repeat;
 }
 
 #content{
@@ -174,6 +183,7 @@ margin-bottom :0;
 width : 90%;
 color : #572800;
 }
+
 .info-box p{
 margin  : 0;
 padding : 0;
@@ -188,17 +198,41 @@ margin-top : 25px;
 height:     40px;
 }
 
-html, body {
+html, body  {
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
 #home-container {
-
     background-color: white;
-    padding: 20px;
-    margin: 20px;
+    justify-content: center;
+    align-content: center;
     width: 100%;
     height: 100%;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 120px 0px  450px 0px;
+}
+
+
+#info-session {
+    text-align: center;
+    background-color: rgb(202, 134, 32);
+    padding: 20px;
+    height: 100%;
+}
+
+#info-session ul li {
+    list-style: none;
+    align-items: start;
+    text-align: start;
+    padding: 2px;
+} 
+
+
+a {
+    color: rgb(22, 127, 219);
 }
