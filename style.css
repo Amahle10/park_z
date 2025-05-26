@@ -86,18 +86,25 @@ height   : 40px;
 background-color: forestgreen;
 padding: 10px;
 margin: 0px;
+justify-content: space-between;
+display: flex;
+
 } 
+
+
 
 #tabs-bottom a{
 float : left;
 display : block;
-width : 50%;
+/* width : 50%; */
 height : 35px;
 font-weight : 700;
 color       : white;
 text-align  : center;
 text-decoration : none;
 padding-top: none;
+padding: 20px;
+
 } 
 
 #tabs-bottom a:hover {
@@ -151,7 +158,8 @@ padding-top: none;
 }
 
 #main{
-margin-top: 119px;
+/* margin-top: 119px; */
+margin: 0px;
 background: url('images/map-blur.png');
 background-repeat: repeat-y;
 }
@@ -272,4 +280,43 @@ footer {
      position: absolute;
  bottom: 0;
  width: 100%;
+}
+
+#form-container {
+    display: block;
+    flex-direction: column;
+
+    padding: 20px;
+    background-color: rgba(219, 228, 218, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    padding: 20px; 
+    width: 60%
+} 
+
+#form-container p {
+    text-align: center;
+    color: #572800;
+    font-size: 18px;
+
+}
+
+
+#form-container label {
+    text-align: start;
+    display: block; 
+    color: #572800;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+#form-container input, textarea{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    width: 80%;
 }
